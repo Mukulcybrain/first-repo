@@ -1,0 +1,67 @@
+@import '/node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+@import '/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: CandyBeans;
+    src: url(assets/custom-fonts/candy-beans.otf);
+}
+
+@font-face {
+    font-family: calibri;
+    src: url(assets/custom-fonts/calibri-font-sv/Calibri\ Regular.ttf);
+    src: url(assets/custom-fonts/calibri-font-sv/Calibri\ Bold.TTF);
+}
+
+.bannar-image h2 {
+    font-family: candybeans;
+    font-size: 85px;
+    line-height: 1;
+    font-weight: 100;
+}
+
+.bannar-image button {
+    font-family: 'calibri';
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 43px;
+    margin-top: 15px;
+}
+
+.about h3,
+.features h3,
+.events h3 {
+    font-family: candybeans;
+}
+
+.features::before {
+    position: absolute;
+    content: '';
+    background-image: url(/assets/images/blue-bird/before-facility.png);
+    top: 0;
+    left: 0;
+    width: 357px;
+    height: 357px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.features::after {
+    position: absolute;
+    content: '';
+    background-image: url(/assets/images/blue-bird/after-facility.png);
+    bottom: -127px;
+    right: 0;
+    width: 276px;
+    height: 486px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1470px) and (max-width: 2500px) {
+    img.mx-auto.xl\:w-max.\32 xl\:wn.\32 xl\:mt-tt {
+        width: 86% !important;
+        object-fit: cover;
+    }
+}

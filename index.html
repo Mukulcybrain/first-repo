@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="styles.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Candy+Beans&display=swap" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.owl.carousel.js"></script>
+
+    <title>Blue Bird School</title>
+</head>
+
+<body>
+    <header class="nav-header">
+        <nav class="nav">
+            <div class="mx-auto flex justify-between items-center">
+                <div class="text-white font-bold text-lg w-4/12">
+                    <div class="py-2.5 px-10">
+                        <img src="assets/images/logo-wide.png" alt="logo">
+                    </div>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-black">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+
+                <div class="nav-list w-4/5">
+                    <ul id="menu" class="hidden md:flex space-x-6 w-max mx-auto text-center gap-x-5">
+                        <li><a href="#" class="text-black font-semibold text-xl">Home</a></li>
+                        <li><a href="#" class="text-black font-semibold text-xl">About Us</a></li>
+                        <li class="relative group">
+                            <a href="#" class="text-black font-semibold text-xl">School Academics</a>
+                            <!-- <ul class="absolute left-0 hidden mt-2 space-y-2 bg-gray-800 group-hover:block">
+                                <li><a href="#" class="block px-4 py-2 text-black font-semibold text-xl">Service 1</a></li>
+                                <li><a href="#" class="block px-4 py-2 text-black font-semibold text-xl">Service 2</a></li>
+                                <li><a href="#" class="block px-4 py-2 text-black font-semibold text-xl">Service 3</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="#" class="text-black font-semibold text-xl">Admission</a></li>
+                        <li><a href="#" class="text-black font-semibold text-xl">News</a></li>
+                        <li><a href="#" class="text-black font-semibold text-xl">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="w-4/12 bg-orange-400 rounded-bl-blr py-10 px-10">
+                    <ul class="md:flex space-x-2.5 gap-x-1.5">
+                        <li class="flex gap-x-3 items-center text-white text-xl"><a href="#" class="text-white font-semibold text-xl flex">Login</a>|</li>
+                        <li class="flex gap-x-3 items-center text-white text-xl"><a href="#" class="text-white font-semibold text-xl flex ml-1">Blue Bird</a>|</li>
+                        <li class="flex gap-x-3 items-center text-white text-xl"><a href="#" class="text-white font-semibold text-xl flex">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="bannar">
+        <div class="bannar-image">
+            <div class="image-bannar relative">
+                <img src="/assets/images/Banner.png" alt="bannar" class="bg-cover bg-center bg-no-repeat object-cover 2xl:w-full md:w-max">
+                <div class="head-bannar absolute bottom-20 left-0 right-0 transform -translate-y-1/2 text-4xl font-bold text-center">
+                    <h2 class="text-white text-center shadow-slate-700">Excellence Learning <br> for the kids</h2>
+                    <button type="button" class="text-2xl text-white bg-orange-400 py-3 px-4">Get Start</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about pt-12 pb-12 bg-about bg-Color bg-cover bg-center bg-no-repeat object-bottom 2xl:w-full md:w-full">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center">
+                <div class="w-6/12 2xl:w-6/12">
+                    <div class="image">
+                        <img src="assets/images/Kid.png" alt="kid" class="mx-auto xl:w-max 2xl:wn 2xl:mt-tt">
+                    </div>
+                </div>
+                <div class="w-6/12 2xl:w-5/12">
+                    <div class="about-head">
+                        <h3 class="text-orange-400 text-5xl mb-4">
+                            About Us
+                        </h3>
+                        <p class="text-gray-400 text-xl leading-9 text-justify font-normal">
+                            Our school motto o is ”KNOWLEDGE IS POWER”. At Blue Bird, students and staff are expected to put in hard work and make the school mo o their guiding principle, at all mes. It is said, Perseverance and Hard Work is the Key to Success' and Blue Bird High
+                            School, Panchkula has proved it right over the years. Ever since its inception in the year 1989, Blue Bird School has made immense progress by leaps and bounds in each field. The Blue Bird High School Panchkula has achieved
+                            a prominent position among the educational institutions of Panchkulla and Chandigarh. The school is well known as a disciplined place to study and for varied extracurricular activities.
+                        </p>
+                        <div class="book text-center">
+                            <img src="assets/images/Books.png" alt="book" class="mx-auto mt-tn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features py-20 bg-clr relative">
+        <div class="container mx-auto z-11111">
+            <div class="w-full">
+                <h3 class="text-ftxt text-5xl pb-12 font-calib text-center">
+                    Our Facilities
+                </h3>
+            </div>
+            <div class="flex justify-between items-center gap-16 flex-wrap">
+                <div class="w-fw bg-white ">
+                    <div class="py-8 px-8 shadow-box min-h-490">
+                        <img src="assets/images/smartclass-01.png" alt="smartclass" class="w-full h-73">
+                        <div class="my-3">
+                            <h4 class="text-3xl text-ftc mb-1 font-medium">Smart Room Class</h4>
+                            <p class="text-black text-lg">Smart Room Classes from PreNursery to Class X. Bird School has made immense progress by leaps and bounds in each... <span class="span text-orange-400"><a href="javascriptvoid:(0)">Read More</a></span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-fw bg-white ">
+                    <div class="py-8 px-8 shadow-box min-h-490">
+                        <img src="assets/images/art-and-craft.png" alt="smartclass" class="w-full h-73">
+                        <div class="my-3">
+                            <h4 class="text-3xl text-ftc mb-1 font-medium">Art & Craft Activities</h4>
+                            <p class="text-black text-lg">The School has a colorful and furnished room. Bird School has made immense progress by leaps and bounds in each field... <span class="span text-orange-400"><a href="javascriptvoid:(0)">Read More</a></span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-fw bg-white ">
+                    <div class="py-8 px-8 shadow-box min-h-490">
+                        <img src="assets/images/music.jpg" alt="smartclass" class="w-full h-73">
+                        <div class="my-3">
+                            <h4 class="text-3xl text-ftc mb-1 font-medium">Music Room</h4>
+                            <p class="text-black text-lg">An Independent Well Equipped music room duly Carpeted Bird School has made immense progress by leaps and bounds in each field. The Blue Bird High School... <span class="span text-orange-400"><a href="javascriptvoid:(0)">Read More</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-fw bg-white ">
+                    <div class="py-8 px-8 shadow-box min-h-490">
+                        <img src="assets/images/library.png" alt="smartclass" class="w-full h-73">
+                        <div class="my-3">
+                            <h4 class="text-3xl text-ftc mb-1 font-medium">School Library</h4>
+                            <p class="text-black text-lg">School Library is a rich Informaon Resource Bird School has made immense progress by leaps and bounds in each field. The Blue Bird High School... <span class="span text-orange-400"><a href="javascriptvoid:(0)">Read More</a></span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-fw bg-white ">
+                    <div class="py-8 px-8 shadow-box min-h-490">
+                        <img src="assets/images/Robotics-blog-post.png" alt="smartclass" class="w-full h-73">
+                        <div class="my-3">
+                            <h4 class="text-3xl text-ftc mb-1 font-medium">Robotics Classes</h4>
+                            <p class="text-black text-lg">All Inniaves of Introducing robocs Classes Bird School has made immense progress by leaps and bounds in each field. The Blue Bird High School... <span class="span text-orange-400"><a href="javascriptvoid:(0)">Read More</a></span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-fw bg-white z-20">
+                    <div class="py-8 px-8 shadow-box min-h-490">
+                        <img src="assets/images/smartclass-01.png" alt="smartclass" class="w-full h-73">
+                        <div class="my-3">
+                            <h4 class="text-3xl text-ftc mb-1 font-medium">Smart Room Class</h4>
+                            <p class="text-black text-lg">Smart Room Classes from PreNursery to Class X. Bird School has made immense progress by leaps and bounds in each... <span class="span text-orange-400"><a href="javascriptvoid:(0)">Read More</a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="events py-20 relative">
+        <div class="container mx-auto z-11111">
+            <div class="w-full">
+                <h3 class="text-ftxt text-5xl pb-12 font-calib text-center">
+                    Our Events
+                </h3>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="assets/images/smartclass-01.png" alt="Item 1">
+                </div>
+                <div class="item"><img src="assets/images/smartclass-01.png" alt="Item 2"></div>
+                <div class="item"><img src="assets/images/smartclass-01.png" alt="Item 3"></div>
+                <div class="item"><img src="assets/images/smartclass-01.png" alt="Item 4"></div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
